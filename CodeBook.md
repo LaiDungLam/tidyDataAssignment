@@ -17,201 +17,243 @@ DATA DICTIONARY -  Human Activity Recognition Using Smartphones Dataset
                       Walking Upstairs 
 
     tBodyAcc-mean()-X     8
-          Time domain signal of body's acceleration signals in mean() in X axis           
+          Time domain signal of body's acceleration in mean() in X axis           
                       0.2215982...0.301461  .Hz 
       
       
     tBodyAcc-mean()-Y   
-          Time domain signal of body's acceleration signals esimated in mean() in Y axis
+          Time domain signal of body's acceleration esimated in mean() in Y axis
 
     tBodyAcc-mean()-Z 
-          Time domain signal of body's acceleration signals esimated   in mean() in Z axis
+          Time domain signal of body's acceleration  esimated   in mean() in Z axis
 
     tBodyAcc-std()-X  
-          Time domain signal of body's acceleration signals esimated        in std() in X axis
+          Time domain signal of body's acceleration signals esimated in std() in X axis
       
     tBodyAcc-std()-Y  
-          Time domain signal of body's acceleration signals in std() in y axis
+          Time domain signal of body's acceleration measured in std() in Y axis
 
-tBodyAcc-std()-Z
-      Time domain signal of body's acceleration signals esimated in std() in Z axis
+    tBodyAcc-std()-Z
+          Time domain signal of body's acceleration  measured in std() in Z axis
+        
       
-      
-7 tGravityAcc-mean()-X 
+    tGravityAcc-mean()-X 
+          Time domain signals of gravity acceleration measured in mean() in X axis  
 
 
-8 tGravityAcc-mean()-Y
+    tGravityAcc-mean()-Y
+          Time domain signals of grativty acceleration measured in mean() in Y axis 
 
 
-9 tGravityAcc-mean()-Z
+    tGravityAcc-mean()-Z
+          Time domain signals of grativty acceleration measured in mean() in Z axis 
 
 
-10 tGravityAcc-std()-X
+    tGravityAcc-std()-X
+          Time domain signals of grativty acceleration measured in std() in X axis 
 
 
-11 tGravityAcc-std()-Y
+    tGravityAcc-std()-Y
+          Time domain signals of grativty acceleration measured in std() in Y axis 
 
 
-12 tGravityAcc-std()-Z
+    tGravityAcc-std()-Z
+          Time domain signals of grativty acceleration measured in std() in Z axis 
 
 
-13 tBodyAccJerk-mean()-X
+    tBodyAccJerk-mean()-X
+          Jerk signals of Body Acceleration measured in mean() in X axis 
 
+    tBodyAccJerk-mean()-Y
+          Jerk signals of Body Acceleration measured in mean() in Y axis 
 
-14 tBodyAccJerk-mean()-Y
+    tBodyAccJerk-mean()-Z
+          Jerk signals of Body Acceleration measured in mean() in Z axis 
 
+    tBodyAccJerk-std()-X
+          Jerk signals of Body Acceleration measured in std() in X axis 
 
-15 tBodyAccJerk-mean()-Z
 
+    tBodyAccJerk-std()-Y
+          Jerk signals of Body Acceleration measured in std() in Y axis 
 
-16 tBodyAccJerk-std()-X
 
+    tBodyAccJerk-std()-Z
+          Jerk signals of Body Acceleration measured in std() in Z axis 
 
-17 tBodyAccJerk-std()-Y
 
+    tBodyGyro-mean()-X
+          Time domain signals of body's angular velocity measured in mean() in X axis 
 
-18 tBodyAccJerk-std()-Z
 
+    tBodyGyro-mean()-Y
+          Time domain signals of body's angular velocity measured in mean() in Y axis 
 
-19 tBodyGyro-mean()-X
 
+    tBodyGyro-mean()-Z
+          Time domain signals of body's angular velocity measured in mean() in Z axis 
 
-20 tBodyGyro-mean()-Y
+    tBodyGyro-std()-X
+          Time domain signals of body's angular velocity measured in std() in X axis  
 
 
-21 tBodyGyro-mean()-Z
+    tBodyGyro-std()-Y
+          Time domain signals of body's angular velocity measured in std() in Y axis 
 
+    tBodyGyro-std()-Z
+          Time domain signals of body's angular velocity measured in std() in Z axis
 
-22 tBodyGyro-std()-X
 
+    tBodyGyroJerk-mean()-X
+          Jerk signals of body's angular velocity measured in mean() in X axis
 
-23 tBodyGyro-std()-Y
 
+    tBodyGyroJerk-mean()-Y
+        Jerk signals of body's angular velocity measured in mean() in Y axis
 
-24 tBodyGyro-std()-Z
 
+    tBodyGyroJerk-mean()-Z
+        Jerk signals of body's angular velocity measured in mean() in Z axis
 
-25 tBodyGyroJerk-mean()-X
 
+    tBodyGyroJerk-std()-X
+        Jerk signals of body's angular velocity measured in std() in X axis
 
-26 tBodyGyroJerk-mean()-Y
+    tBodyGyroJerk-std()-Y
+        Jerk signals of body's angular velocity measured in std() in Y axis
 
 
-27 tBodyGyroJerk-mean()-Z
+    tBodyGyroJerk-std()-Z
+        Jerk signals of body's angular velocity measured in std() in Z axis
 
 
-28 tBodyGyroJerk-std()-X
+    tBodyAccMag-mean()
+      Magnitude of body acceleration signals measured in mean() 
 
+    tBodyAccMag-std()
+      Magnitude of body acceleration signals measured in std()
 
-29 tBodyGyroJerk-std()-Y
+    tGravityAccMag-mean()
+      Magnitude of gravity acceleration signals measured in mean()
 
+    tGravityAccMag-std()
+      Magnitude of gravity acceleration signals measured in std()
 
-30 tBodyGyroJerk-std()-Z
 
+    tBodyAccJerkMag-mean()
+      Magnitude of body acceleration Jerk signals measured in mean()
 
-31 tBodyAccMag-mean()
 
+    tBodyAccJerkMag-std()
+      Magnitude of body acceleration Jerk signals measured in std()
 
-32 tBodyAccMag-std()
+    tBodyGyroMag-mean()
+      Magnitude of body's angular signals measured in mean()
 
+    tBodyGyroMag-std()
+      Magnitude of body's angular signals measured in std()
 
-33 tGravityAccMag-mean()
+    tBodyGyroJerkMag-mean()
+      Magnitude of body's angular Jerk signals measured in mean()
 
 
-34 tGravityAccMag-std()
+    tBodyGyroJerkMag-std()
+      Magnitude of body's angular Jerk signals measured in std()
 
 
-35 tBodyAccJerkMag-mean()
+    fBodyAcc-mean()-X
+      The average of frequency domain signal of body acceleration measured in X axis 
 
 
-36 tBodyAccJerkMag-std()
+    fBodyAcc-mean()-Y
+      The average of frequency domain signal of body acceleration in Y axis 
 
 
-37 tBodyGyroMag-mean()
+    fBodyAcc-mean()-Z
+      The average of frequency domain signals of body acceleration in Z axis 
 
 
-38 tBodyGyroMag-std()
+    fBodyAcc-std()-X
+      The standard deviation of frequency domain signals of body acceleration in X axis 
 
 
-39 tBodyGyroJerkMag-mean()
+    fBodyAcc-std()-Y
+      The standard deviation of frequency domain signals of body acceleration in Y axis 
 
 
-40 tBodyGyroJerkMag-std()
+    fBodyAcc-std()-Z
+      The standard deviation of frequency domain signals of body acceleration in Z axis 
 
 
-41 fBodyAcc-mean()-X
+    fBodyAccJerk-mean()-X
+      The average of frequency domain Jerk signals of body acceleration in X axis 
 
 
-42 fBodyAcc-mean()-Y
+    fBodyAccJerk-mean()-Y
+        The average of frequency domain Jerk signals of body acceleration in Y axis 
+  
+    fBodyAccJerk-mean()-Z
+        The average of frequency domain Jerk signals of body acceleration in Z axis 
 
 
-43 fBodyAcc-mean()-Z
+    fBodyAccJerk-std()-X
+        The standard deviation of frequency domain Jerk signals of body acceleration in X axis 
 
 
-44 fBodyAcc-std()-X
+    fBodyAccJerk-std()-Y
+        The standard deviation of frequency domain Jerk signals of body acceleration in Y axis 
 
+    fBodyAccJerk-std()-Z
+        The standard deviation of frequency domain Jerk signals of body acceleration in Z axis 
 
-45 fBodyAcc-std()-Y
 
+    fBodyGyro-mean()-X
+        The average of frequency domain signals of body's angular velocity in X axis 
 
-46 fBodyAcc-std()-Z
+    fBodyGyro-mean()-Y
+        The average of frequency domain signals of body's angular velocity in Y axis 
 
 
-47 fBodyAccJerk-mean()-X
+    fBodyGyro-mean()-Z
+        The average of frequency domain signals of body's angular velocity in Z axis 
 
 
-48 fBodyAccJerk-mean()-Y
+    fBodyGyro-std()-X
+        The standard deviation of frequency domain signals of body's angular velocity in X axis 
 
 
-49 fBodyAccJerk-mean()-Z
+    fBodyGyro-std()-Y
+        The standard deviation of frequency domain signals of body's angular velocity in Y axis 
 
 
-50 fBodyAccJerk-std()-X
+    fBodyGyro-std()-Z
+        The standard deviation of frequency domain signals of body's angular velocity in Z axis 
 
 
-51 fBodyAccJerk-std()-Y
+    fBodyAccMag-mean()
+        The average of magnitude of the frequency domain signals of body acceleration 
 
+    fBodyAccMag-std()
+        The standard deviation of magnitude of the frequency domain signals of body acceleration 
 
-52 fBodyAccJerk-std()-Z
+    fBodyBodyAccJerkMag-mean()
+        The average of magnitude of the frequency Jerk signals of body acceleration 
 
+    fBodyBodyAccJerkMag-std()
+        The standard deviation of magnitude of the frequency Jerk signals of body acceleration
 
-53 fBodyGyro-mean()-X
+    fBodyBodyGyroMag-mean()
+        The average of the magnitude of the frequency domain signals of body's angular velocity
 
+    fBodyBodyGyroMag-std()
+        The standard deviation of the magnitude of the frequency domain signals of body's angular velocity
 
-54 fBodyGyro-mean()-Y
 
+    fBodyBodyGyroJerkMag-mean()
+        The average of the magnitude of the frequency of Jerk signals of body's angular velocity
 
-55 fBodyGyro-mean()-Z
 
-
-56 fBodyGyro-std()-X
-
-
-57 fBodyGyro-std()-Y
-
-
-58 fBodyGyro-std()-Z
-
-
-59 fBodyAccMag-mean()
-
-
-60 fBodyAccMag-std()
-
-
-61 fBodyBodyAccJerkMag-mean()
-
-
-62 fBodyBodyAccJerkMag-std()
-
-
-63 fBodyBodyGyroMag-mean()
-
-
-64 fBodyBodyGyroMag-std()
-
-
-65 fBodyBodyGyroJerkMag-mean()
-
-
-66 fBodyBodyGyroJerkMag-std()
+    fBodyBodyGyroJerkMag-std()
+        The standard deviation of the magnitude of the frequency of Jerk signals of body's angular velocity
+        
+        
