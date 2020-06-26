@@ -85,6 +85,12 @@ run_analysis <- function () {
   dataset_average <- dataset
   dataset_average[3:length(names(dataset_average))] <- sapply(dataset_average[3:length(names(dataset_average))], as.numeric)
   dataset_average <- dataset_average %>% group_by(SubjectId, Activity) %>% summarise_all(funs(mean))
+  
+  #set all features columns as numeric data type 
+  i <- length(dataset_average)
+  dataset_average[, 3:i] <- lapply(dataset_average[, 3:i], as.numeric)
+  dataset_average[, 3:i] <- lapply(dataset_average[, 3:i], round, 7)
+  
   write.table(dataset_average, file="myTidyDataSet.txt",  row.names = FALSE)
   list(dataset_average = dataset_average, data = dataset)
   }
