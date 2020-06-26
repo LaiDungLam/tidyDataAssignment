@@ -1,14 +1,14 @@
 DATA DICTIONARY -  Human Activity Recognition Using Smartphones Dataset 
 
 
-SubjectId               2
+    SubjectId               2
         
         Ids of 30 Subjects participating in the research
                       
                       1..30. Integers of subjects identfications
 
-  Activity            <char> 
-       Names of activities performed by subjects
+    Activity            <char> 
+        Names of activities performed by subjects
                       Laying
                       Sitting
                       Standing
@@ -16,22 +16,22 @@ SubjectId               2
                       Walking Downstairs
                       Walking Upstairs 
 
-tBodyAcc-mean()-X     8
-      Time domain signal of body's acceleration signals in mean() in X axis           
+    tBodyAcc-mean()-X     8
+          Time domain signal of body's acceleration signals in mean() in X axis           
                       0.2215982...0.301461  .Hz 
       
       
-tBodyAcc-mean()-Y   
-      Time domain signal of body's acceleration signals esimated in mean() in Y axis
+    tBodyAcc-mean()-Y   
+          Time domain signal of body's acceleration signals esimated in mean() in Y axis
 
-tBodyAcc-mean()-Z 
-      Time domain signal of body's acceleration signals esimated   in mean() in Z axis
+    tBodyAcc-mean()-Z 
+          Time domain signal of body's acceleration signals esimated   in mean() in Z axis
 
-tBodyAcc-std()-X  
-      Time domain signal of body's acceleration signals esimated        in std() in X axis
+    tBodyAcc-std()-X  
+          Time domain signal of body's acceleration signals esimated        in std() in X axis
       
-tBodyAcc-std()-Y  
-      Time domain signal of body's acceleration signals in std() in y axis
+    tBodyAcc-std()-Y  
+          Time domain signal of body's acceleration signals in std() in y axis
 
 tBodyAcc-std()-Z
       Time domain signal of body's acceleration signals esimated in std() in Z axis
