@@ -1,8 +1,10 @@
-\center DATA DICTIONARY -  Human Activity Recognition Using Smartphones Dataset -  \center 
+DATA DICTIONARY -  Human Activity Recognition Using Smartphones Dataset 
 
 
 SubjectId               2
+        
         Ids of 30 Subjects participating in the research
+                      
                       1..30. Integers of subjects identfications
 
   Activity            <char> 
